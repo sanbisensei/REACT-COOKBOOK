@@ -16,3 +16,6 @@ it transpiles to this -
 ```javascript
 React.createElement("h1", null, "Sanbi");
 ```
+
+- for boolean, undefined and null the jsx will not show anything.
+- we can not use if/else but we can use ternary operation.
