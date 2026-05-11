@@ -6,6 +6,8 @@
 - The component may have data private to itself. We call it **_"State"_**.
 - The component may have data to share with other Components. We call them **_"Props"_**.
 
+---
+
 ## State and Props
 
 ![state&props](./images/state&props.png)
@@ -14,6 +16,8 @@
 - to interact with other componets we need to pass something called **_props_**.
 - **States**: states are datas managed inside a component.when state changes the component re-renders.
 - **Props**: props are the argument we pass to another component to exchange data.props are read only.
+
+---
 
 ## Difference between State and Normal variable
 
@@ -47,6 +51,8 @@ export default function Counter() {
 1. `count` changes internally
 2. React does not re-render
 3. UI still shows 0
+
+---
 
 - example of state:
 
