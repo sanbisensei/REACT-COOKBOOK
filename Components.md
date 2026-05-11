@@ -12,5 +12,5 @@
 
 - A component has its own private data which is called **_States_**. but this component has to interact with another component.
 - to interact with other componets we need to pass something called **_props_**.
-- ==State==: states are like local variable to a function.
-- ==Props==: props are the argument we pass to another component to exchange data.
+- **State**: states are like local variable to a function.
+- **Props**: props are the argument we pass to another component to exchange data.
