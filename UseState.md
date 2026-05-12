@@ -28,8 +28,9 @@
     setCounter((prev) => prev + 1);
   };
   ```
-- it will give me 2 because "prev = previous/latest" state value
-  React guarantees that prev is always correct
+- it will give me 2 because:
+- "prev = previous/latest" state value
+- React guarantees that prev is always correct
 
 ---
 
