@@ -23,3 +23,8 @@
 
 1. Don't over engineer simple components
 2. If the layer of sub presenter components are too many . for example , We need to send 10-15 props to one presenter component then those will go sub component and again sub sub component then it will get too messy again. we will use this _Container-Presenter-Pattern_ patten when the component layer will be max 3 level.other wise we will use another **Design Patter** which is called _Context Design Pattern_.
+
+## example:
+
+![exp](/images/ContainerPresenterVisual.png)
+[text](https://)
