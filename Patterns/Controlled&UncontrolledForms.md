@@ -227,14 +227,9 @@ export default UncontrolledFormNoRef;
 
 ## Comparison Table
 
-| Feature         | Controlled                                 | Uncontrolled (ref)                |
-| --------------- | ------------------------------------------ | --------------------------------- |
-| Data source     | `useState`                                 | `useRef`                          |
-| Reads value     | every keystroke                            | only on submit                    |
-| Re-renders      | yes, on every keystroke                    | no                                |
-| Validation      | while typing                               | only on submit                    |
-| Reset form      | `setForm({name:"", email:"", message:""})` | `nameRef.current.value = ""`      |
-| Use value in UI | anytime                                    | only when you grab it             |
-| File input      | not supported                              | always uncontrolled               |
-| Code complexity | more code                                  | less code                         |
-| Best for        | complex forms, real time feedback          | simple forms, just grab on submit |
+| Feature               | Controlled Component   | Uncontrolled Component    |
+| --------------------- | ---------------------- | ------------------------- |
+| Where is the value?   | React state            | DOM (browser)             |
+| How to access value?  | State variable         | ref.current.value         |
+| React aware of value? | Yes                    | No                        |
+| Best for              | Validation, syncing UI | Simple forms, performance |
