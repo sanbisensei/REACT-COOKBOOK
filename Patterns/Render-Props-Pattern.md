@@ -10,6 +10,26 @@
 
 ---
 
+## Basic Syntax
+
+- Component Part:
+
+  ```jsx
+  function LogicComponent({ render }) {
+    const name = "Sanbi";
+
+    return render(name);
+  }
+  ```
+
+- Use this anywhere like this:
+
+  ```jsx
+  <LogicComponent render={(name) => <h1>Hello {name}</h1>} />
+  ```
+
+---
+
 ## Use Cases
 
 - when writing an reusable component library with flexibility in mind
